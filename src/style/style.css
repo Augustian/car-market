@@ -1,0 +1,309 @@
+.conteiner{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.sdelki-info{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sdelki-info div{
+    position: relative;
+}
+
+.sdelki-info div svg{
+    color: #fff;
+    font-size: 100px;
+    display: block;
+    margin: auto;
+    opacity: 0.3;
+}
+
+.sdelki-info div p{
+    color: #fff;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.sdelki-info div span{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+
+}
+
+.central_conteiner{
+    margin-right: 250px;
+}
+.list_car{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.right_conteiner{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 250px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+select{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 85%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(200, 200, 200);
+}
+
+.right_conteiner h5{
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 10px !important;
+    font-size: 16px;
+    background-color: rgb(71, 71, 71);
+}
+
+.right_conteiner button{
+    display: block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px auto 10px auto !important;
+}
+
+.slot_car{
+    width: 270px;
+    margin: 15px 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.slot_car:hover{
+    width: 270px;
+    margin: 15px 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.slot_car h5{
+    font-size: 14px;
+    background-color: rgb(71, 71, 71);
+    margin: 0;
+    color: tan;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.slot_car a{
+    color: rgb(167, 133, 89);
+    font-size: 15px;
+}
+
+.slot_car a:hover{
+    color: rgb(116, 83, 39);
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.logo h4{
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+.logo img{
+    margin-left: 15%;
+    width: 150px;
+}
+
+.Header{
+    background-color: rgb(71, 71, 71);
+    padding: 20px;
+}
+.Header .desktop{
+    margin-left: 100px;
+    display: block;
+}
+
+.Header .mobile{
+    display: none;
+}
+
+.Header .mobile .mobile-menu a{
+    display: block;
+    padding: 10px;
+    font-size: large;
+}
+
+.Header .mobile .mobile-menu{
+    display: block;
+    padding: 15px;
+    border-style: solid;
+    border-color: #5f5f5f;
+}
+
+.Header .mobile button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.Header .mobile button:focus{
+    outline: none;
+}
+
+.Header a{
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.Header a:hover{
+    padding-right: 50px;
+    color: wheat;
+    text-decoration: none;
+}
+
+.carousel{
+    float: left;
+    width: 700px;
+    height: 450px;
+    border-style: solid;
+    border-color: #474747;
+}
+
+.carousel img{
+    object-fit: cover;
+    width: 700px;
+    height: 445px;
+}
+
+.Car_Info{
+    margin-top: 100px;
+}
+.content-list{
+    display: inline;
+    float: right;
+    width: 380px;
+}
+
+.content-list li{
+    padding: 5px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-bottom-color: #919c9c;
+}
+
+.content-list li span{
+    float: right;
+}
+
+.features_machine{
+    padding: 50px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.features_machine ol li{
+    list-style: "○ ";
+}
+@media only screen and (max-width: 900px) 
+{
+    .features_machine{
+        padding: 10px;
+        display: block;
+        width: 100%;
+    }
+    .conteiner{
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .Header .desktop{
+        margin-left: 100px;
+        display: none;
+    }
+    
+    .Header .mobile{
+        display: block;
+    }
+
+    .central_conteiner{
+        margin-right: 0px;
+    }
+    .list_car{
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .right_conteiner{
+        position: relative;
+        top: 20px;
+        width: 90%;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 50px;
+    }
+    .carousel{
+        width: 100%;
+        height: 250px;
+        border-style: solid;
+        border-color: #474747;
+    }
+    
+    .carousel img{
+        float: none;
+        object-fit: cover;
+        width: 100%;
+        height: 245px;
+    }
+    .content-list{
+        display: inline;
+        float: none;
+        width: 380px;
+    }
+
+    .sdelki-info{
+        top: 0;
+    }
+    
+    .sdelki-info div svg{
+        font-size: 50px;
+    }
+    
+    .sdelki-info div p{
+        top: 35px;
+        font-size: 23px;
+    }
+    .sdelki-info div span{
+        font-size: 14px;
+    }
+  }
